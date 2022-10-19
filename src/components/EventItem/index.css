@@ -6,10 +6,6 @@
   width: 47%;
 }
 
-.active-event-item {
-  border: 0.1rem solid #2dd4bf;
-}
-
 .event-item-container-button {
   cursor: pointer;
   outline: none;
@@ -22,7 +18,11 @@
 
 .event-item-img {
   width: 100%;
-  border-radius: 0.4rem;
+  border-radius: 0.8rem;
+}
+
+.active-event-item {
+  border: 0.15rem solid #2dd4bf;
 }
 
 .event-item-name {
