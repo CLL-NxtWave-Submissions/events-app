@@ -88,6 +88,7 @@ class Events extends Component {
                 key={eventsListItem.id}
                 itemData={eventsListItem}
                 itemClickHandler={this.onEventItemSelection}
+                isActive={eventsListItem.id === activeEventItemId}
               />
             ))}
           </ul>
