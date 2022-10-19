@@ -1,13 +1,15 @@
 import './index.css'
 
 const EventItem = props => {
-  const {itemData, itemClickHandler} = props
+  const {itemData, itemClickHandler, isActive} = props
   const {id, imageUrl, name, location} = itemData
 
   const onItemSelection = () => itemClickHandler(id)
 
   return (
-    <li className="event-item-container">
+    <li
+      className={`event-item-container ${isActive ? 'active-event-item' : ''}`}
+    >
       <button
         className="event-item-container-button"
         type="button"
