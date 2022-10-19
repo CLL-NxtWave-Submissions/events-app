@@ -85,6 +85,7 @@ class Events extends Component {
           <ul className="events-list">
             {eventsList.map(eventsListItem => (
               <EventItem
+                key={eventsListItem.id}
                 itemData={eventsListItem}
                 itemClickHandler={this.onEventItemSelection}
               />
