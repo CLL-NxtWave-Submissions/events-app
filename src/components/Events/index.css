@@ -6,7 +6,7 @@
 }
 
 .events-content-container {
-  width: 50%;
+  width: 70%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,7 @@
   margin: 0;
   padding: 0;
   margin-bottom: 2rem;
+  align-self: flex-start;
 }
 
 .events-list {
