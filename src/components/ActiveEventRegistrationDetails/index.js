@@ -55,9 +55,9 @@ const ActiveEventRegistrationDetails = props => {
     // registrationStatus === 'NO_ACTIVE_EVENT'
     activeEventRegistrationDetailsUI = (
       <div className="active-event-registration-details-container no-active-event-container">
-        <h1 className="no-active-event-message">
+        <p className="no-active-event-message">
           Click on an event, to view its registration details
-        </h1>
+        </p>
       </div>
     )
   }
