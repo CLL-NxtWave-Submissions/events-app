@@ -65,7 +65,7 @@ class Events extends Component {
       activeEventItemId: eventItemId,
     })
 
-  getEventItemData = () => {
+  getActiveEventItemData = () => {
     const {activeEventItemId} = this.state
     const activeEventItemDetails = eventsList.find(
       eventsListItem => eventsListItem.id === activeEventItemId,
